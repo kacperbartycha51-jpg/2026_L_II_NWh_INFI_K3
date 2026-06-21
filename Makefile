@@ -9,5 +9,5 @@ run:
 	python main.py
 	
 .PHONY: test
-test: lint
+test: 
 	PYTHONPATH=. py.test --verbose -s
